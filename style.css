@@ -78,8 +78,6 @@ a{
     outline: none;
 }
 
-
-
 .icon-cart{
     display: flex;
     width: 107px;
@@ -117,7 +115,6 @@ a{
     cursor: pointer;
 }
 
-
 .main-block{
     display: flex;
     width: 100%;
@@ -144,7 +141,6 @@ a{
     font-family: "Montserrat";
     width: 234px;
     align-items: center;
-     
 }
 
 .logo-bold{
@@ -157,7 +153,6 @@ a{
     height: 30px;
     position: relative;
     margin-left: 50px;
-
 }
 
 .input-search{
@@ -187,6 +182,7 @@ a{
     text-align: right;   
     align-items: center;
 }
+
 .main-menu-button{
     display: flex;
     flex-direction: column;
@@ -199,11 +195,24 @@ a{
     color: #00c8c8;
 }
 
+.main-menu-button:hover .pop-up-menu {
+    opacity: 1;
+    height: 525px;
+}
+
 .pop-up-menu{
-    display: block; 
     position: absolute;
     top: 60px;
     width: 467px;
+    background: white;
+    opacity: 0;
+    height: 50px;
+    transition: opacity 1s,height 2s;
+    overflow: hidden;
+}
+
+.pop-up-hover-container{
+    width: 100%;
 }
 
 .pop-up-menu-title{
@@ -222,17 +231,23 @@ a{
     font-family: "Montserrat";
     font-weight: 300;
 }
+
 .lists{
     display: flex;
     text-align: left;
     top: 20px;
 }
+
 .casuals{
-   width: 50%;
+    display:block;
+    margin:20px;
+    width: 50%;
 }
+
 .formal{
     width: 50%;
 }
+
 .sale{
     width: 100%;
     height: 200px;
@@ -249,11 +264,11 @@ a{
    font-weight: 300;
     justify-content: center;
 }
+
 .sale-element-bold{
     font-weight: 700;
     letter-spacing: 2px;
 }
-
 
 @media (max-width:700px){
     .header-cart{
