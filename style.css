@@ -123,6 +123,7 @@ a{
     background-color:#f8f8f8; 
     background-position: 22% 0;
     justify-content: center;
+    
 }
 
 .main-menu{
@@ -131,6 +132,7 @@ a{
     justify-content: space-between;
     max-width:1800px ;
     height: 72px; 
+    position: relative;
 }
 
 .logo{
@@ -138,7 +140,6 @@ a{
     font-size: 24px;
     letter-spacing: 1px;
     color: #222222;
-    font-family: "Montserrat";
     width: 234px;
     align-items: center;
 }
@@ -177,9 +178,8 @@ a{
     justify-content: space-between;
     font-size: 13px;
     line-height: 20px;
-    font-family: "Montserrat";
     font-weight: 700;
-    text-align: right;   
+    text-align: left;   
     align-items: center;
 }
 
@@ -197,7 +197,7 @@ a{
 
 .main-menu-button:hover .pop-up-menu {
     opacity: 1;
-    height: 525px;
+    height: 515px;
 }
 
 .pop-up-menu{
@@ -209,7 +209,9 @@ a{
     height: 50px;
     transition: opacity 1s,height 2s;
     overflow: hidden;
+    pointer-events:none;
 }
+
 
 .pop-up-hover-container{
     width: 100%;
@@ -219,7 +221,6 @@ a{
     font-size: 12px;
     line-height: 20px;
     color: #575153;
-    font-family: "Montserrat";
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -228,7 +229,6 @@ a{
     font-size: 14px;
     line-height: 30px;
     color: #727272;
-    font-family: "Montserrat";
     font-weight: 300;
 }
 
@@ -245,11 +245,13 @@ a{
 }
 
 .formal{
+     display:block;
+    margin:20px;
     width: 50%;
 }
 
 .sale{
-    width: 100%;
+    width: 415px;
     height: 200px;
     display: flex;
     background-color: #333333;
@@ -260,9 +262,9 @@ a{
     letter-spacing: 4px;
     line-height: 48px;
     color: #ffffff;
-    font-family: "Montserrat";
    font-weight: 300;
     justify-content: center;
+    margin-left: 23px;
 }
 
 .sale-element-bold{
@@ -294,4 +296,43 @@ a{
     .header-menu{
         width: 210px;
     }
+}
+
+
+.ave{
+    margin-top: 190px;
+    font-size: 450px;
+    color: #575153;
+    font-weight: 700;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.ave-alignment{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+}
+
+.shop-men{
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #454647;
+    font-weight: 400;
+}
+
+.shop-men-alignment{
+    display: flex;
+    text-align: center;
+    width: 342px;
+    height: 59px;
+    background-color: rgba(115,115,115,0);
+    border: 2px solid #737373;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 700px 100px 100px 1220px;
 }
