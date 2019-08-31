@@ -3,7 +3,6 @@ body {
     font-family: 'Montserrat', sans-serif; 
     padding: 0;
     margin: 0; 
-
 }
 
 a{
@@ -18,7 +17,6 @@ a{
     width: 100%;
     height: 45px;
     font-size: 13px;
-    
 }
  
 .header-alignment{
@@ -79,8 +77,6 @@ a{
     cursor: pointer;
 }
 
-
-
 .icon-cart{
     display: flex;
     width: 107px;
@@ -90,7 +86,6 @@ a{
     line-height: 36px;
     align-items: center;
 }
-
 
 .icon-cart:hover {
     background-color: #00c8c8;
@@ -128,7 +123,6 @@ a{
     background-position: 22% 0;
     justify-content: space-between;
     align-items: center;    
-    
 }
 
 .main-menu{
@@ -138,7 +132,6 @@ a{
     max-width:1800px ;
     height: 72px; 
     position: relative;
-
 }
 
 .logo{
@@ -224,7 +217,6 @@ a{
     pointer-events: none;
     box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
 }
-
 
 .pop-up-hover-container{
     width: 100%;
@@ -549,10 +541,45 @@ a{
     position: relative;
 }
 
+.photo-2-alignment:hover{
+    position: relative;
+}
+
 .photo-1-alignment:hover .photo-pop-up-hover{
     opacity: 1;
     height: 150px;
 } 
+
+
+
+.photo-2-alignment:hover .photo-pop-up-hover{
+    opacity: 1;
+    height: 150px;
+}
+
+
+.photo-3-alignment:hover .photo-pop-up-hover{
+    opacity: 1;
+    height: 150px;
+}
+
+
+.photo-4-alignment:hover .photo-pop-up-hover{
+    opacity: 1;
+    height: 150px;
+}
+
+
+.photo-5-alignment:hover .photo-pop-up-hover{
+    opacity: 1;
+    height: 150px;
+}
+
+
+.photo-6-alignment:hover .photo-pop-up-hover{
+    opacity: 1;
+    height: 150px;
+}
 
 .index-up{
     font-size: 12px;
@@ -572,21 +599,14 @@ a{
     text-align: center;
 }
 
-
-
-
-
 .photo-pop-up-hover .icon-photo-pop-up-hover{
     display: flex;
     width: 30%;
     align-content: space-between;
 }
 
-
-
 .icon-photo-pop-up-hover{
     font-size: 15px;
-   
 }
 
 .circle{
@@ -600,15 +620,16 @@ a{
 	border-radius: 100%;
     position: relative;
 }
+ 
 
 .fa-heart{
     color: #ffffff;
-     position: absolute;
+    position: absolute;
 }
 
 .fa-compress-arrows-alt{
     color: #ffffff;
-     position: absolute;
+    position: absolute;
 }
 
 .photo-icon-cart{
@@ -616,11 +637,9 @@ a{
     position: absolute; 
 }
 
-
 .circle:hover {
     cursor: pointer;
     background-color: #00c8c8;
-    
 }
 
 .product-catalog-photo-left{
@@ -639,14 +658,155 @@ a{
     overflow: hidden;
     opacity: 0;
     transition: opacity 1s,height 2s;
+    position: absolute;
+    margin-top: 110%;
+    width: 100%;
+}
+
+.photo-hover{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    position: absolute;
+    height: 50%;
+    align-content: space-between;
+    margin-left: 75%;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 
+.photo-hover img{
+    margin: 10% 0 10% 0;
+    
+}
+
+.photo-1-alignment:hover .photo-hover{
+    display: flex;
+    opacity: 1;
+}
+
+
+.photo-2-alignment:hover .photo-hover{
+    display: flex;
+    opacity: 1;
+}
+
+
+.photo-3-alignment:hover .photo-hover{
+    display: flex;
+    opacity: 1;
+}
+
+
+.photo-4-alignment:hover .photo-hover{
+    display: flex;
+    opacity: 1;
+}
+
+
+.photo-5-alignment:hover .photo-hover{
+    display: flex;
+    opacity: 1;
+}
+
+
+.photo-6-alignment:hover .photo-hover{
+    display: flex;
+    opacity: 1;
+}
+
+.circle-icon-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+	background-color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+    position: relative;
+    
+}
+
+
+.circle-icon-info-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+    position: relative;
+    
+}
+
+.icon-info-hover{
+    margin: 70% 0 0 45%;
+    position: absolute; 
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.photo-1-alignment:hover .icon-info-hover{
+    display: flex;
+    opacity: 1; 
+}
+
+.photo-2-alignment:hover .icon-info-hover{
+    display: flex;
+    opacity: 1; 
+
+}
+
+.photo-3-alignment:hover .icon-info-hover{
+    display: flex;
+    opacity: 1; 
+}
+
+
+.photo-4-alignment:hover .icon-info-hover{
+    display: flex;
+    opacity: 1; 
+}
+
+
+.photo-5-alignment:hover .icon-info-hover{
+    display: flex;
+    opacity: 1; 
+}
+
+.photo-6-alignment:hover .icon-info-hover{
+    display: flex;
+    opacity: 1; 
+}
+
+.fa-info{
+    font-size: 20px;
+    position: absolute;
+    color: #454647;
+}
+
+.fa-info-big{
+    font-size: 40px;
+    position: absolute;
+    color: #454647;
+}
 
 @media (max-width:2062px){
   .look-book-alignment{
       right:1px;
   }
+}
+
+@media(max-width:1500px){
+    .product-catalog-menu{
+        width: 50%;
+    }
 }
 
 @media (max-width:1350px){
@@ -659,6 +819,9 @@ a{
     .main-menu-buttons{
       flex-direction: column;
        align-items: flex-end; 
+    }
+    .product-catalog-menu{
+        width: 60%;
     }
 }
 
@@ -710,10 +873,17 @@ a{
 .ave{
    display: none;
 }
+.product-catalog-menu{
+    width: 75%;
+}
 
  }
 
-
+ @media (max-width:900px){
+    .product-catalog-menu{
+        width: 100%;
+    }
+ }
 
  @media (max-width:700px){
     .header-cart{
@@ -755,7 +925,16 @@ a{
         font-size:27px; 
         width: 100%;
     }
+    .product-catalog-menu{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .product-catalog-menu-element{
+        margin-bottom: 20px;
+    }
 }
+
 
 
 
