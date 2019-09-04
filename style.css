@@ -250,7 +250,7 @@ a{
 }
 
 .formal{
-     display:block;
+    display:block;
     margin:20px;
     width: 50%;
 }
@@ -332,6 +332,8 @@ a{
     width: 100%;
     border: 1px solid #f8f8f8;
     margin: 50px 0 50px 0;
+    border-left: none;
+    border-right: none;
 }
 
 .product-catalog{
@@ -377,10 +379,6 @@ a{
     width: 100%;
 }
 
-.photo-left-elements img{
-    width: 100%;
-}
-
 .product-catalog-photo-right{
     display: flex;
     flex-direction: column;
@@ -393,117 +391,35 @@ a{
     justify-content: space-between;
 }
 
-.photo-right-element img{
-    width: 100%;
-}
-
 .photo-right-elements{
     display: flex;
     width: 100%;
     height: 100%;
 }
 
-.photo-right-elements img{
+.photo-alignment img{
     width: 100%;
 }
 
-.photo-1-alignment{
+.photo-width-half{
     display: flex;
     width: 50%;
     position: relative;
 }
 
-.photo-1-alignment:hover{
-    box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14); 
-    cursor: pointer;
-}
-
-.photo-1-alignment img{
-    width: 100%;
-}
-
-.photo-2-alignment{
-    display: flex;
-    width: 50%;
-    position: relative;
-}
-
-.photo-2-alignment:hover{
-    box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
-    cursor: pointer;
-}
-
-.photo-2-alignment img{
-    width: 100%;
-}
-
-.photo-5-alignment{
-    display: flex;
-    width: 50%;
-    position: relative;
-}
-
-.photo-5-alignment:hover{
-    box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
-    cursor: pointer;
-}
-
-.photo-5-alignment img{
-    width: 100%;
-    height: 100%;
-}
-
-.photo-6-alignment{
-    display: flex;
-    width: 50%;
-    height: 100%;
-    position: relative;
-}
-
-.photo-6-alignment:hover{
-    box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
-    cursor: pointer;
-}
-
-.photo-6-alignment img{
-    width: 100%;
-}
-
-.photo-3-alignment{
+.photo-width-100{
     display: flex;
     width: 100%;
-    position: relative;
-}
-
-.photo-3-alignment:hover{
-    box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
-    cursor: pointer;
-}
-
-.photo-3-alignment img{
-    width: 100%;
-}
-
-.photo-4-alignment {
-    display: flex;
     position: relative; 
 }
 
-.photo-4-alignment:hover{
+.photo-alignment:hover{
     box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
     cursor: pointer;
 }
 
 .photo-left-element{
     display: flex;
-}
-
-.photo-left-element img{
-    width: 100%;
-}
-
-.photo-4-alignment img{
-   width: 100%;
 }
 
 .photo-margin-right{
@@ -536,46 +452,10 @@ a{
     margin-left: 10px;
 }
 
-.photo-1-alignment:hover{
-    flex-direction: column;
-    position: relative;
-}
-
-.photo-2-alignment:hover{
-    position: relative;
-}
-
-.photo-1-alignment:hover .photo-pop-up-hover{
+.photo-alignment:hover .photo-pop-up-hover{
     opacity: 1;
     height: 150px;
 } 
-
-.photo-2-alignment:hover .photo-pop-up-hover{
-    opacity: 1;
-    height: 150px;
-}
-
-
-.photo-3-alignment:hover .photo-pop-up-hover{
-    opacity: 1;
-    height: 150px;
-}
-
-
-.photo-4-alignment:hover .photo-pop-up-hover{
-    opacity: 1;
-    height: 150px;
-}
-
-.photo-5-alignment:hover .photo-pop-up-hover{
-    opacity: 1;
-    height: 150px;
-}
-
-.photo-6-alignment:hover .photo-pop-up-hover{
-    opacity: 1;
-    height: 150px;
-}
 
 .index-up{
     font-size: 12px;
@@ -658,6 +538,7 @@ a{
     position: absolute;
     top: 100%;
     z-index: 1;
+    box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
 }
 
 .photo-hover{
@@ -677,32 +558,7 @@ a{
     margin: 10% 0 10% 0;
 }
 
-.photo-1-alignment:hover .photo-hover{
-    display: flex;
-    opacity: 1;
-}
-
-.photo-2-alignment:hover .photo-hover{
-    display: flex;
-    opacity: 1;
-}
-
-.photo-3-alignment:hover .photo-hover{
-    display: flex;
-    opacity: 1;
-}
-
-.photo-4-alignment:hover .photo-hover{
-    display: flex;
-    opacity: 1;
-}
-
-.photo-5-alignment:hover .photo-hover{
-    display: flex;
-    opacity: 1;
-}
-
-.photo-6-alignment:hover .photo-hover{
+.photo-alignment:hover .photo-hover{
     display: flex;
     opacity: 1;
 }
@@ -739,32 +595,7 @@ a{
     transition: opacity 1s;
 }
 
-.photo-1-alignment:hover .icon-info-hover{
-    display: flex;
-    opacity: 1; 
-}
-
-.photo-2-alignment:hover .icon-info-hover{
-    display: flex;
-    opacity: 1; 
-}
-
-.photo-3-alignment:hover .icon-info-hover{
-    display: flex;
-    opacity: 1; 
-}
-
-.photo-4-alignment:hover .icon-info-hover{
-    display: flex;
-    opacity: 1; 
-}
-
-.photo-5-alignment:hover .icon-info-hover{
-    display: flex;
-    opacity: 1; 
-}
-
-.photo-6-alignment:hover .icon-info-hover{
+.photo-alignment:hover .icon-info-hover{
     display: flex;
     opacity: 1; 
 }
@@ -779,6 +610,88 @@ a{
     font-size: 40px;
     position: absolute;
     color: #454647;
+}
+
+.lookbook-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-height: 522px;
+}
+
+.lookbook-container img{
+    height: 85%;
+    margin-top: 14%;
+}
+
+.lookbook-element{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+    
+}
+
+.lookbook-text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    height: 60%;
+    width: 50%;
+    margin-right: 10%;
+
+
+}
+
+.lookbook-title-bold{
+    font-size: 40px;
+    letter-spacing: 2px;
+   margin-bottom: 3%;
+    color: #575153;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.lookbook-title{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+    color: #575153;
+    font-family: "Montserrat";
+    font-weight: 400;
+ 
+}
+
+.lookbook-description{
+    font-size: 15px;
+    line-height: 22px;
+    color: #727272;
+    font-weight: 400;
+    text-align: right;
+}
+
+.view-now-container{
+    display: flex;
+    width: 180px;
+    height: 59px;
+    border: 2px solid #737373;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 0 0 30%;
+    
+}
+
+.view-now-button{
+    color: #727272;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-now-container:hover{
+    background-color: #00c8c8;
+    color: white;
+    cursor: pointer;
 }
 
 @media (max-width:2062px){
@@ -801,8 +714,8 @@ a{
 
 @media (max-width:1250px){
     .main-menu-buttons{
-      flex-direction: column;
-       align-items: flex-end; 
+        flex-direction: column;
+        align-items: flex-end; 
     }
     .product-catalog-menu{
         width: 60%;
@@ -816,17 +729,17 @@ a{
  }
 
  @media(max-width:1100px){
-.main-menu{
-    flex-direction: column;
-    align-items: flex-start;
-    height: 70%;
+    .main-menu{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 70%;
 }
 
 .main-menu-buttons-container{
-   flex-direction: column;
-   height: 70%;
-   font-size: 30px;
-   width: 100%;
+        flex-direction: column;
+        height: 70%;
+        font-size: 30px;
+        width: 100%;
 }
 
 .pop-up-menu{
@@ -937,24 +850,17 @@ a{
         flex-direction: column;
     }
 
-    .photo-1-alignment{
-        width: 100%;
-    }
-
-    .photo-2-alignment{
-        width: 100%;
-    }
-
     .photo-right-elements{
         flex-direction: column;
     }
 
-    .photo-5-alignment{
+
+    .photo-alignment{
         width: 100%;
     }
 
-    .photo-6-alignment{
-        width: 100%;
+    .photo-alignment img{
+        margin-bottom: 15px;
     }
 
     .photo-margin-left{
