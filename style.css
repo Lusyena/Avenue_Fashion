@@ -654,7 +654,7 @@ a{
 }
 
 .lookbook-title{
-    font-size: 48px;
+    font-size: 44px;
     letter-spacing: 2px;
     margin-bottom: 3%;
     color: #575153;
@@ -700,10 +700,17 @@ a{
   }
 }
 
+@media (max-width: 1700px){
+    .pop-up-menu{
+        right: 10px;
+    }
+}
+
 @media(max-width:1500px){
     .product-catalog-menu{
         width: 50%;
     }
+
 }
 
 @media (max-width:1350px){
