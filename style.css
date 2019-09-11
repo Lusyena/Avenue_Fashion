@@ -698,12 +698,30 @@ a{
   .look-book-alignment{
       right:1px;
   }
+
+  .lookbook-title{
+      font-size: 35px;
+  }
+
 }
 
 @media (max-width: 1700px){
     .pop-up-menu{
         right: 10px;
     }
+
+.lookbook-element{
+    width: 530px;
+    height: 522px;
+    margin: 10px;
+}
+
+
+.lookbook-container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 }
 
 @media(max-width:1500px){
@@ -793,6 +811,12 @@ a{
 
 .product-catalog-photo-right{
     width: 100%;
+}
+
+.lookbook-element{
+    width: 800px;
+    height: 700px;
+    margin: 10px;
 }
  }
 
@@ -890,10 +914,28 @@ a{
         font-size: 20px;
         padding: 5px 0 5px 0;
     }
+
+    
+    .lookbook-element{
+        width: 500px;
+        height: 400px;
+        margin: 10px;
+    }
+
+    .lookbook-title{
+        font-size: 20px; 
+    }
+
+    .lookbook-title-bold{
+        font-size: 22px;
+    }
+
+    .lookbook-description{
+        font-size: 12px;
+    }
+
+    .view-now-container{
+        width: 120px;
+        height: 30px;
+    }
 }
-
-
-
-
-
-
