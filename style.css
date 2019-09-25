@@ -198,11 +198,13 @@ a{
 
 .main-menu-button:hover .main-menu-element-highlight{
     color: #00c8c8;
+   
 }
 
 .main-menu-button:hover .pop-up-menu {
     opacity: 1;
     height: 515px;
+    
 }
 
 .pop-up-menu{
@@ -211,11 +213,11 @@ a{
     width: 467px;
     background: white;
     opacity: 0;
-    height: 50px;
+    height: 0;
     transition: opacity 1s,height 2s;
     overflow: hidden;
-    pointer-events: none;
     box-shadow: 8.5px 14.722px 24px rgba(0,0,0,0.14);
+    cursor: default;
 }
 
 .pop-up-hover-container{
@@ -235,6 +237,11 @@ a{
     line-height: 30px;
     color: #727272;
     font-weight: 300;
+}
+
+.pop-up-menu-elements-container:hover{
+    color: #00c8c8;
+    cursor: pointer;
 }
 
 .lists{
