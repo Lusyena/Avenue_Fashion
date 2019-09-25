@@ -616,13 +616,12 @@ a{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    max-height: 522px;
     margin-bottom: 100px;
 }
 
 .lookbook-container img{
     height: 85%;
-    margin-top: 14%;
+    align-self: flex-end;
 }
 
 .lookbook-element{
@@ -631,6 +630,7 @@ a{
     align-items: center;
     background-color: #f8f8f8;
     justify-content: space-between;
+    height: 522px;
 }
 
 .lookbook-text{
@@ -819,6 +819,10 @@ a{
       font-size: 35px;
   }
 
+.footer-alignment{
+    width: 80%;
+}
+
 }
 
 @media (max-width: 1700px){
@@ -838,6 +842,14 @@ a{
     justify-content: center;
 }
 
+.icon-box{
+    width: 500px;
+}
+
+.award-winner-box{
+    width: 500px;
+}
+
 }
 
 @media(max-width:1500px){
@@ -845,6 +857,36 @@ a{
         width: 50%;
     }
 
+    .icon-box-style{
+        font-size: 15px;
+    }
+
+    .award-fashion{
+        font-size: 15px;
+    }
+
+    .award-title{
+        font-size: 15px;
+    }
+
+    .award-winner-box{
+        margin-bottom: 50px;
+        width: 400px;
+        height: 100px;
+    }
+    .icon-box{
+        margin-bottom: 50px;
+        width: 400px;
+        height: 100px;
+    }
+
+    .boxes-container{
+        width: 70%;
+    }
+
+    .footer-alignment-elements{
+        width: 50%;
+    }
 }
 
 @media (max-width:1350px){
@@ -934,6 +976,19 @@ a{
     height: 700px;
     margin: 10px;
 }
+
+.lists-container{
+    flex-direction: column;
+}
+
+.boxes-container{
+    flex-direction: column;
+}
+
+.footer-alignment-elements{
+    width: 70%;
+}
+
  }
 
  @media (max-width:900px){
@@ -974,6 +1029,10 @@ a{
     .icon-cart{
         padding: 2px;
         width: 70px;
+    }
+
+    .footer-alignment{
+        font-size: 8px;
     }
 }
 
@@ -1053,5 +1112,42 @@ a{
     .view-now-container{
         width: 120px;
         height: 30px;
+    }
+
+    .icon-box-style{
+        font-size: 15px;
+    }
+
+    .award-fashion{
+        font-size: 15px;
+    }
+
+    .award-title{
+        font-size: 15px;
+    }
+
+    .award-winner-box{
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100px;
+    }
+    .icon-box{
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .boxes-container{
+        width: 80%;
+    }
+}
+
+@media(max-width:360px){
+    .award-fashion{
+        font-size: 10px;
+    }
+
+    .award-title{
+        font-size: 10px;
     }
 }
