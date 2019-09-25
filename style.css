@@ -623,12 +623,12 @@ a{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    max-height: 522px;
+    margin-bottom: 100px;
 }
 
 .lookbook-container img{
     height: 85%;
-    margin-top: 14%;
+    align-self: flex-end;
 }
 
 .lookbook-element{
@@ -637,7 +637,7 @@ a{
     align-items: center;
     background-color: #f8f8f8;
     justify-content: space-between;
-    
+    height: 522px;
 }
 
 .lookbook-text{
@@ -647,8 +647,6 @@ a{
     height: 60%;
     width: 50%;
     margin-right: 10%;
-
-
 }
 
 .lookbook-title-bold{
@@ -667,7 +665,6 @@ a{
     color: #575153;
     font-family: "Montserrat";
     font-weight: 400;
- 
 }
 
 .lookbook-description{
@@ -686,7 +683,6 @@ a{
     justify-content: center;
     align-items: center;
     margin: 20% 0 0 30%;
-    
 }
 
 .view-now-button{
@@ -701,6 +697,126 @@ a{
     cursor: pointer;
 }
 
+.information-block{
+    display: flex;
+    background-color: #f8f8f8;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lists-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.list-element-title{
+    font-size: 13px;
+    line-height: 20px;
+    color: #575153;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.list-element{
+    font-size: 14px;
+    line-height: 30px;
+    color: #727272;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.margin-alignment{
+    margin: 10px 0 10px 0;
+}
+
+.list-element:hover{
+    color: #00c8c8;
+    cursor: pointer;
+}
+
+.boxes-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.award-winner-box{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 200px;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.icon-box{
+    display: flex;
+    width: 570px;
+    height: 200px;
+    background-color: #00c8c8;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-box-style{
+    color: white;
+    font-size: 36px;
+    margin: 0 20px 0 20px;
+}
+
+.icon-box-style:hover{
+   cursor: pointer;
+}
+
+.award-title{
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.award-fashion{
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #999999;
+    font-size: 13px;
+    height: 45px;
+}
+
+.footer-alignment{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.footer-alignment-elements{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
 @media (max-width:2062px){
   .look-book-alignment{
       right:1px;
@@ -709,6 +825,10 @@ a{
   .lookbook-title{
       font-size: 35px;
   }
+
+.footer-alignment{
+    width: 80%;
+}
 
 }
 
@@ -729,6 +849,14 @@ a{
     justify-content: center;
 }
 
+.icon-box{
+    width: 500px;
+}
+
+.award-winner-box{
+    width: 500px;
+}
+
 }
 
 @media(max-width:1500px){
@@ -736,6 +864,36 @@ a{
         width: 50%;
     }
 
+    .icon-box-style{
+        font-size: 15px;
+    }
+
+    .award-fashion{
+        font-size: 15px;
+    }
+
+    .award-title{
+        font-size: 15px;
+    }
+
+    .award-winner-box{
+        margin-bottom: 50px;
+        width: 400px;
+        height: 100px;
+    }
+    .icon-box{
+        margin-bottom: 50px;
+        width: 400px;
+        height: 100px;
+    }
+
+    .boxes-container{
+        width: 70%;
+    }
+
+    .footer-alignment-elements{
+        width: 50%;
+    }
 }
 
 @media (max-width:1350px){
@@ -825,6 +983,19 @@ a{
     height: 700px;
     margin: 10px;
 }
+
+.lists-container{
+    flex-direction: column;
+}
+
+.boxes-container{
+    flex-direction: column;
+}
+
+.footer-alignment-elements{
+    width: 70%;
+}
+
  }
 
  @media (max-width:900px){
@@ -865,6 +1036,10 @@ a{
     .icon-cart{
         padding: 2px;
         width: 70px;
+    }
+
+    .footer-alignment{
+        font-size: 8px;
     }
 }
 
@@ -944,5 +1119,42 @@ a{
     .view-now-container{
         width: 120px;
         height: 30px;
+    }
+
+    .icon-box-style{
+        font-size: 15px;
+    }
+
+    .award-fashion{
+        font-size: 15px;
+    }
+
+    .award-title{
+        font-size: 15px;
+    }
+
+    .award-winner-box{
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100px;
+    }
+    .icon-box{
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .boxes-container{
+        width: 80%;
+    }
+}
+
+@media(max-width:360px){
+    .award-fashion{
+        font-size: 10px;
+    }
+
+    .award-title{
+        font-size: 10px;
     }
 }
